@@ -7,13 +7,13 @@
     <Company>iml6yu</Company>
     <Description>基础数据操作  curd</Description>
     <Copyright>©iml6yu</Copyright>
-    <PackageIcon>favorite_64.png</PackageIcon>
+    <PackageIcon>favorite_32.png</PackageIcon>
     <PackageIconUrl />
     <PackageReleaseNotes>基础数据操作  curd</PackageReleaseNotes>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageProjectUrl>https://github.com/iml6yu/Sugar/tree/master/Sugar.Utils.Encrypt</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/iml6yu/Sugar.BaseTemplate/</PackageProjectUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.1|AnyCPU'">
@@ -40,6 +40,16 @@
   </ItemGroup>
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.1' ">
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Sugar\Resources\favorite_32.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
