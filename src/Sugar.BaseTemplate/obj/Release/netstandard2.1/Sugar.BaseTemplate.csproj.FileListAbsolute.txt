@@ -1,5 +1,0 @@
-E:\SugarLib\Sugar.BaseTemplate\bin\Release\netstandard2.1\Sugar.BaseTemplate.deps.json
-E:\SugarLib\Sugar.BaseTemplate\bin\Release\netstandard2.1\Sugar.BaseTemplate.dll
-E:\SugarLib\Sugar.BaseTemplate\obj\Release\netstandard2.1\Sugar.BaseTemplate.csprojAssemblyReference.cache
-E:\SugarLib\Sugar.BaseTemplate\obj\Release\netstandard2.1\Sugar.BaseTemplate.AssemblyInfoInputs.cache
-E:\SugarLib\Sugar.BaseTemplate\obj\Release\netstandard2.1\Sugar.BaseTemplate.AssemblyInfo.cs
