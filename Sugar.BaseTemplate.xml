@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sugar.BaseTemplate</name>
+    </assembly>
+    <members>
+        <member name="M:Sugar.BaseTemplate.Application.Contracts.BasicsServer`5.Get(System.String)">
+            <summary>
+            查询
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sugar.BaseTemplate.Application.Contracts.BasicsServer`5.Get(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            查询
+            </summary>
+            <param name="expression">规则</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sugar.BaseTemplate.Application.Contracts.BasicsServer`5.Gets(System.Int32,System.Int32)">
+            <summary>
+            无规则 分页查询
+            </summary>
+            <param name="pageIndex"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sugar.BaseTemplate.Application.Contracts.BasicsServer`5.Gets(System.Int32,System.Int32,System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            分页查询
+            </summary>
+            <param name="pageIndex"></param>
+            <param name="pageSize"></param>
+            <param name="expression"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sugar.BaseTemplate.Application.Contracts.BasicsServer`5.Add(`3)">
+            <summary>
+            添加
+            </summary>
+            <param name="createDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sugar.BaseTemplate.Application.Contracts.BasicsServer`5.Delete(System.String,System.Guid)">
+            <summary>
+            删除 更新标识 不是真正的delete Data
+            </summary>
+            <param name="id"></param>
+            <param name="deleterId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sugar.BaseTemplate.Application.Contracts.BasicsServer`5.Modify(`4,System.Guid)">
+            <summary>
+            更新
+            </summary>
+            <param name="updateDto"></param>
+            <param name="modifierId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sugar.BaseTemplate.Dtos.CreateDto">
+            <summary>
+            创建实体
+            </summary>
+        </member>
+        <member name="T:Sugar.BaseTemplate.Dtos.ListQueryDto">
+            <summary>
+            列表
+            </summary>
+        </member>
+        <member name="T:Sugar.BaseTemplate.Dtos.QueryDto">
+            <summary>
+            查询
+            </summary>
+        </member>
+        <member name="T:Sugar.BaseTemplate.Dtos.UpdateDto">
+            <summary>
+            更新
+            </summary>
+        </member>
+        <member name="P:Sugar.BaseTemplate.Models.BaseModel.ExtendJson">
+            <summary>
+            扩展数据 Json格式
+            </summary>
+        </member>
+    </members>
+</doc>
